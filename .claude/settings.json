@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__blender__get_viewport_screenshot",
+      "Bash(dpkg -l *)",
+      "Bash(systemctl is-active *)",
+      "Bash(systemctl is-enabled *)",
+      "Bash(systemctl status *)",
+      "Bash(systemctl --user list-units *)",
+      "Bash(lsusb *)",
+      "Bash(journalctl -b *)",
+      "Bash(journalctl -u *)",
+      "Bash(journalctl --user -u *)",
+      "Bash(ip -br link)",
+      "mcp__blender__get_scene_info"
+    ]
+  }
+}
